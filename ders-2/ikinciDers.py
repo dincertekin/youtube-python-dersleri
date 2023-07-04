@@ -3,8 +3,8 @@ integerOrnegi = 5
 floatOrnegi = 10.45
 complexOrnegi = 12j
 listOrnegi = ["domates", "biber", "salatalik", "elma"]
-tupleOrnegi = ("armut", "muz", "çilek")
-dictOrnegi = {"isim": "Dinçer", "soyisim": "Tekin", "yaş": 19, "yer": "İstanbul"}
+tupleOrnegi = ("armut", "muz", "cilek")
+dictOrnegi = {"isim": "Dincer", "soyisim": "Tekin", "yas": 19, "yer": "Istanbul"}
 setOrnegi = {"eleman1", "eleman2", "eleman3"}
 boolOrnegi = False
 
@@ -13,5 +13,5 @@ print("Veri tiplerini yazdirmak icin degiskenin adini print fonksiyonu icerisine
 # Tek satirlik bir yorum.
 
 """
-Çok satirli yorum kismi.
+Cok satirli yorum kismi.
 """

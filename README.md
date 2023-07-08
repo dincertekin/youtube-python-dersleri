@@ -5,4 +5,4 @@
 2.Bölüm: [Veri Türleri ve Değişkenler](https://www.youtube.com/watch?v=net3QeQqO1g)  
 3.Bölüm: [Veri Dönüşümleri ve Girdiler](https://www.youtube.com/watch?v=5CP1KR7YOcA)  
 4.Bölüm: [Koşullandırma ve Fonksiyonlar](https://www.youtube.com/watch?v=gUZ7K6XO0Rk)  
-5.Bölüm: [Döngüler ve Modüller](https://www.youtube.com/watch?v=XXX)  
+5.Bölüm: [Döngüler ve Modüller](https://www.youtube.com/watch?v=c_TSK0Ly8yY)  

@@ -4,3 +4,4 @@
 1.Bölüm: [Kurulum](https://www.youtube.com/watch?v=EGTltANA2hM)  
 2.Bölüm: [Veri Türleri ve Değişkenler](https://www.youtube.com/watch?v=net3QeQqO1g)  
 3.Bölüm: [Veri Dönüşümleri ve Girdiler](https://www.youtube.com/watch?v=5CP1KR7YOcA)  
+4.Bölüm: [Koşullandırma ve Fonksiyonlar](https://www.youtube.com/watch?v=gUZ7K6XO0Rk)  

@@ -8,3 +8,4 @@
 5.Bölüm: [Döngüler ve Modüller](https://www.youtube.com/watch?v=q9mF3PWz2h8)  
 6.Bölüm: [Dosya İşlemleri](https://www.youtube.com/watch?v=UY_Zfq4_oKU)  
 7.Bölüm: [Hata Yakalama](https://www.youtube.com/watch?v=N-og_lE0eFg)  
+8.Bölüm: [Sınıflar](https://www.youtube.com/watch?v=XXX)  

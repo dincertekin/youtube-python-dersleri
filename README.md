@@ -10,12 +10,12 @@
 6.Bölüm: [Dosya İşlemleri](https://www.youtube.com/watch?v=UY_Zfq4_oKU)  
 7.Bölüm: [Hata Yakalama](https://www.youtube.com/watch?v=N-og_lE0eFg)  
 8.Bölüm: [Sınıflar](https://www.youtube.com/watch?v=OogXojwoCdc)  
-[Python ile Keylogger Yapımı](https://www.youtube.com/watch?v=TW4USC9ZopQ)
-[Python ile Yapay Zeka Yapımı](https://www.youtube.com/watch?v=R8rrR2T9UX8)
-[Python ile GUI Yapımı](https://www.youtube.com/watch?v=3eHQhwWyfro)
-[Python ile QR Kod Oluşturmak](https://www.youtube.com/watch?v=p5ka7CsZxJ0)
-[Python'da Numpy Kütüphanesi Kullanımı](https://www.youtube.com/watch?v=VyUj3nq0ZZc)
-[Python'da Birden Fazla Sürüm Kurma (pyenv)](https://www.youtube.com/watch?v=WZMjsdJqiKQ)
+[Python ile Keylogger Yapımı](https://www.youtube.com/watch?v=TW4USC9ZopQ)  
+[Python ile Yapay Zeka Yapımı](https://www.youtube.com/watch?v=R8rrR2T9UX8)  
+[Python ile GUI Yapımı](https://www.youtube.com/watch?v=3eHQhwWyfro)  
+[Python ile QR Kod Oluşturmak](https://www.youtube.com/watch?v=p5ka7CsZxJ0)  
+[Python'da Numpy Kütüphanesi Kullanımı](https://www.youtube.com/watch?v=VyUj3nq0ZZc)  
+[Python'da Birden Fazla Sürüm Kurma (pyenv)](https://www.youtube.com/watch?v=WZMjsdJqiKQ)  
 
 ## Python Nasıl Kurulur? (Windows İçin)
 

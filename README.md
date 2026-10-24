@@ -1,82 +1,62 @@
-# Python Programlama Dersleri ve Uygulamaları
+# Python Dersleri
 
-![Python Versiyonu](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white)
-![Lisans](https://img.shields.io/badge/Lisans-MIT-green)
-[![YouTube Kanalı](https://img.shields.io/badge/YouTube-Kanala%20Git-red?logo=youtube&logoColor=white)](https://www.youtube.com/@dincertekin)
+Bu depo, YouTube kanalımdaki Python eğitim serisinde yazdığım kodları içeriyor. Videoları izlerken buradaki dosyalara bakabilir, kendi bilgisayarınızda çalıştırıp üzerinde oynayabilirsiniz.
 
-Bu depo, YouTube kanalımda yayınladığım sıfırdan ileri seviyeye Python eğitim serisinin ve pratik uygulamaların kaynak kodlarını içermektedir. Videoları izlerken bu kodlardan yararlanabilir, kendi bilgisayarınızda test edebilirsiniz.
+Oynatma listesi: [Python Eğitimi](https://www.youtube.com/playlist?list=PLi2glt6IPZ0UxXtsUj2h4CWuE8b-xobbG)
 
-📺 **[Python Eğitimi Oynatma Listesine Buradan Ulaşabilirsiniz](https://www.youtube.com/playlist?list=PLi2glt6IPZ0UxXtsUj2h4CWuE8b-xobbG)**
+Her dersin kodu kendi klasöründe (`ders-1`, `ders-2`, ...) ve `uygulama.py` adıyla duruyor. Dosyaların içindeki yorum satırlarında konuyu adım adım anlatmaya çalıştım.
 
----
+## Dersler
 
-## 📚 Ders Müfredatı ve Kaynak Kodlar
+| Konu | Video | Kod |
+| :--- | :--- | :--- |
+| 1. Python Kurulumu ve İlk Program | [Video](https://www.youtube.com/watch?v=EGTltANA2hM) | [ders-1](./ders-1) |
+| 2. Veri Türleri ve Değişkenler | [Video](https://www.youtube.com/watch?v=net3QeQqO1g) | [ders-2](./ders-2) |
+| 3. Veri Dönüşümleri ve Girdiler | [Video](https://www.youtube.com/watch?v=5CP1KR7YOcA) | [ders-3](./ders-3) |
+| 4. Koşullandırma ve Fonksiyonlar | [Video](https://www.youtube.com/watch?v=gUZ7K6XO0Rk) | [ders-4](./ders-4) |
+| 5. Döngüler ve Modüller | [Video](https://www.youtube.com/watch?v=q9mF3PWz2h8) | [ders-5](./ders-5) |
+| 6. Dosya İşlemleri | [Video](https://www.youtube.com/watch?v=UY_Zfq4_oKU) | [ders-6](./ders-6) |
+| 7. Hata Yakalama | [Video](https://www.youtube.com/watch?v=N-og_lE0eFg) | [ders-7](./ders-7) |
+| 8. Sınıflar | [Video](https://www.youtube.com/watch?v=OogXojwoCdc) | [ders-8](./ders-8) |
 
-Eğitim serimiz temel programlama mantığından başlayarak ileri düzey uygulamalara doğru ilerlemektedir. İlgili dersin videosuna ve kod klasörüne tablodan erişebilirsiniz:
+## Uygulamalar
 
-| Bölüm / Konu | Eğitim Videosu | Kaynak Kodlar |
-| :--- | :---: | :---: |
-| 1. Bölüm: Python Kurulumu | [İzle](https://www.youtube.com/watch?v=EGTltANA2hM) | - |
-| 2. Bölüm: Veri Türleri ve Değişkenler | [İzle](https://www.youtube.com/watch?v=net3QeQqO1g) | [Kodlar](./) |
-| 3. Bölüm: Veri Dönüşümleri ve Girdiler | [İzle](https://www.youtube.com/watch?v=5CP1KR7YOcA) | [Kodlar](./) |
-| 4. Bölüm: Koşullandırma ve Fonksiyonlar | [İzle](https://www.youtube.com/watch?v=gUZ7K6XO0Rk) | [Kodlar](./) |
-| 5. Bölüm: Döngüler ve Modüller | [İzle](https://www.youtube.com/watch?v=q9mF3PWz2h8) | [Kodlar](./) |
-| 6. Bölüm: Dosya İşlemleri | [İzle](https://www.youtube.com/watch?v=UY_Zfq4_oKU) | [Kodlar](./) |
-| 7. Bölüm: Hata Yakalama | [İzle](https://www.youtube.com/watch?v=N-og_lE0eFg) | [Kodlar](./) |
-| 8. Bölüm: Sınıflar | [İzle](https://www.youtube.com/watch?v=OogXojwoCdc) | [Kodlar](./) |
+Derslerin dışında birkaç küçük proje de var:
 
-### 🛠️ Pratik Uygulamalar ve Projeler
+- **GUI örneği** — tkinter ile basit bir pencere: [kod](./gui-ornegi) · [video](https://www.youtube.com/watch?v=3eHQhwWyfro)
+- **Chatbot** — sorulara benzer sorulardan cevap bulan, bilmediğini öğrenebilen basit bir bot: [kod](./yapay-zeka-ai-ornegi) · [video](https://www.youtube.com/watch?v=R8rrR2T9UX8)
+- **Keylogger** — eğitim amaçlı tuş kaydı örneği: [kod](./keylogger-ornegi) · [video](https://www.youtube.com/watch?v=TW4USC9ZopQ)
 
-Sadece teorik değil, pratik ve popüler projelerle de kendinizi geliştirebilirsiniz:
+Yalnızca videosu olan, bu depoda kodu bulunmayan diğer konular:
 
-* 🔒 **Siber Güvenlik:** [Python ile Keylogger Yapımı](https://www.youtube.com/watch?v=TW4USC9ZopQ)
-* 🧠 **Yapay Zeka:** [Python ile Yapay Zeka Yapımı](https://www.youtube.com/watch?v=R8rrR2T9UX8)
-* 🖥️ **Arayüz Geliştirme:** [Python ile GUI Yapımı](https://www.youtube.com/watch?v=3eHQhwWyfro)
-* 🛠️ **Araçlar & Kütüphaneler:**
-    * [Python ile QR Kod Oluşturmak](https://www.youtube.com/watch?v=p5ka7CsZxJ0)
-    * [Python'da Numpy Kütüphanesi Kullanımı](https://www.youtube.com/watch?v=VyUj3nq0ZZc)
-    * [Python'da Birden Fazla Sürüm Kurma (pyenv)](https://www.youtube.com/watch?v=WZMjsdJqiKQ)
+- [QR kod oluşturma](https://www.youtube.com/watch?v=p5ka7CsZxJ0)
+- [NumPy kullanımı](https://www.youtube.com/watch?v=VyUj3nq0ZZc)
+- [pyenv ile birden fazla Python sürümü](https://www.youtube.com/watch?v=WZMjsdJqiKQ)
 
----
+## Çalıştırmak için
 
-## 🚀 Başlangıç ve Kurulum
-
-Bu depodaki kodları kendi bilgisayarınızda çalıştırmak için aşağıdaki adımları takip edebilirsiniz.
-
-### 1. Python Kurulumu (Windows)
-
-1. [Python Resmi Web Sitesi](https://python.org)'ne gidin ve **Downloads** bölümünden güncel sürümü indirin.
-2. Kurulum dosyasını (`.exe`) çalıştırın.
-3. **ÖNEMLİ:** Kurulum ekranının alt kısmında yer alan **"Add Python to PATH"** seçeneğini mutlaka işaretleyin. Ardından **"Install Now"** butonuna tıklayın.
-4. Kurulum tamamlandığında komut satırını (Terminal veya CMD) açarak aşağıdaki komut ile doğrulamayı yapın:
+Python 3.10 veya üstü gerekiyor. Kurulu olup olmadığını şöyle kontrol edebilirsiniz:
 
 ```shell
 python --version
 ```
 
-### 2. Repoyu Bilgisayarınıza İndirin
+Kurulu değilse [python.org](https://python.org) üzerinden indirin. Windows'ta kurulum sırasında **"Add Python to PATH"** kutusunu işaretlemeyi unutmayın.
 
-Kodları yerel bilgisayarınıza çekmek için terminale şu komutları yazabilirsiniz:
+Depoyu indirip bir dersi çalıştırmak:
 
 ```shell
 git clone https://github.com/dincertekin/youtube-python-dersleri.git
 cd youtube-python-dersleri
+python ders-2/uygulama.py
 ```
 
----
+GUI örneği için ek bir şey gerekmez, tkinter Python ile birlikte gelir.
 
-## 🤝 Katkıda Bulunun (Contributing)
+## Katkı
 
-Eğitim serisindeki projelere yeni özellikler eklemek, hataları düzeltmek veya kodları optimize etmek isterseniz katkılarınızı bekliyorum!
+Bir hata görürseniz ya da bir örneği iyileştirmek isterseniz issue açabilir veya pull request gönderebilirsiniz.
 
-1. Bu repoyu fork edin.
-2. Yeni bir özellik için branch açın (`git checkout -b yeni-ozellik`).
-3. Değişikliklerinizi commit edin (`git commit -m 'Yeni bir özellik eklendi'`).
-4. Branch'inizi push edin (`git push origin yeni-ozellik`).
-5. Bir **Pull Request (PR)** oluşturun.
+## Lisans
 
----
-
-## 📜 Lisans
-
-Bu proje MIT Lisansı ile lisanslanmıştır. Detaylar için [LICENSE](./LICENSE) dosyasına göz atabilirsiniz.
+MIT. Ayrıntılar için [LICENSE](./LICENSE) dosyasına bakın.

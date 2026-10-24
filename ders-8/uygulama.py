@@ -12,8 +12,13 @@ print(ornekKisi.isim)
 class ATM:
     def paraYatir(self, hesapNo, aciklama, tutar):
         print("Para yatirma islemi gerceklesti.")
-    
+
     def paraCek(self, hesapNo, tutar):
         print("Para cekme islemi gerceklesti.")
 
-ATM.paraYatir()
+# Metotları çağırmak için önce sınıftan bir nesne oluşturmamız gerekiyor.
+atmNesnesi = ATM()
+# Ardından nesne üzerinden metodu, istediği parametrelerle çağırıyoruz.
+# (self parametresini biz vermiyoruz, Python onu otomatik gönderir.)
+atmNesnesi.paraYatir("12345", "Birikim", 500)
+atmNesnesi.paraCek("12345", 200)

@@ -19,16 +19,19 @@ arabalar = [
 for arabaMarkasi in arabalar:
     print(arabaMarkasi)
 
-# Infinite loop (Sonsuz Döngü) bunun sonu yok! Tehlikelidir.
-while 1 == 1:
-    print('test')
+# DİKKAT: Aşağıdaki gibi bir "while 1 == 1" döngüsünün durma koşulu yoktur,
+# yani sonsuza kadar çalışır (Infinite loop / Sonsuz Döngü) ve programı kilitler.
+# Bu yüzden örnek olarak yorum satırına alındı, çalıştırmak isterseniz başındaki # işaretini kaldırın:
+# while 1 == 1:
+#     print('test')
 
 """
 Geçen sefer yaptığımızdan daha gelişmiş bir hesap makinesi örneği aşağıda:
+Bu sefer işlemi seçmekle kalmıyor, sayıları da alıp sonucu gerçekten hesaplıyoruz.
 """
 
-sonsuzDongu = 1
-while sonsuzDongu == 1:
+# Kullanıcı "5" (Çıkış) seçene kadar menüyü tekrar tekrar gösterelim.
+while True:
     print("---------------------------")
     print("Gelismis Hesap Makinesi")
     print(" ")
@@ -38,16 +41,33 @@ while sonsuzDongu == 1:
     print("2) Cikarma")
     print("3) Carpma")
     print("4) Bolme")
+    print("5) Cikis")
     print("---------------------------")
     islem = input("> ")
-    if int(islem) == 1:
-        print("Toplama islemini sectiniz, sayilari girin: ")
-    elif int(islem) == 2:
-        print("Cikarma islemini sectiniz, sayilari girin: ")
-    elif int(islem) == 3:
-        print("Carpma islemini sectiniz, sayilari girin: ")
-    elif int(islem) == 4:
-        print("Bolme islemini sectiniz, sayilari girin: ")
-        sureklidongu = 0
-    else:
-        print('Gecersiz bir secenek belirttiniz.')
+
+    # Çıkış seçeneği ile döngüyü (ve programı) sonlandırıyoruz.
+    if islem == "5":
+        print("Gorusuruz!")
+        break
+
+    # Geçersiz bir seçenekte sayıları sormadan başa dönelim.
+    if islem not in ("1", "2", "3", "4"):
+        print("Gecersiz bir secenek belirttiniz.")
+        continue
+
+    # Seçilen işlem geçerliyse iki sayıyı alıp float'a çeviriyoruz (ondalıklı sayılar da çalışsın diye).
+    sayi1 = float(input("1. sayi: "))
+    sayi2 = float(input("2. sayi: "))
+
+    if islem == "1":
+        print("Sonuc: " + str(sayi1 + sayi2))
+    elif islem == "2":
+        print("Sonuc: " + str(sayi1 - sayi2))
+    elif islem == "3":
+        print("Sonuc: " + str(sayi1 * sayi2))
+    elif islem == "4":
+        # Bir sayıyı 0'a bölemeyiz, bu yüzden önce kontrol ediyoruz.
+        if sayi2 == 0:
+            print("Hata: Bir sayi 0'a bolunemez.")
+        else:
+            print("Sonuc: " + str(sayi1 / sayi2))

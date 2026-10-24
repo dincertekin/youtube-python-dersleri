@@ -1,15 +1,22 @@
 import json
+import os
 from difflib import get_close_matches as yakin_sonuclari_getir
+
+# Veritabanı dosyasının yolunu, bu dosyanın (uygulama.py) bulunduğu klasöre göre belirliyoruz.
+# Böylece kod hangi bilgisayarda/klasörde olursa olsun veritabani.json dosyasını bulabilir.
+# (Eskiden burada sabit bir "C:\Users\User\Desktop\..." yolu vardı ve sadece o bilgisayarda çalışıyordu.)
+VERITABANI_YOLU = os.path.join(os.path.dirname(os.path.abspath(__file__)), "veritabani.json")
 
 # Veritabanı dosyamızı yükleyelim.
 def veritabanini_yukle():
-    with open('C:\\Users\\User\\Desktop\\akilli-chatbot\\veritabani.json', 'r') as dosya:
+    with open(VERITABANI_YOLU, 'r', encoding="utf-8") as dosya:
         return json.load(dosya)
 
 # Veritabanına yeni verileri yazalım.
 def veritabanina_yaz(veriler):
-    with open('C:\\Users\\User\\Desktop\\akilli-chatbot\\veritabani.json', 'w') as dosya:
-        json.dump(veriler, dosya, indent=2)
+    with open(VERITABANI_YOLU, 'w', encoding="utf-8") as dosya:
+        # ensure_ascii=False sayesinde Türkçe karakterler dosyada düzgün görünür.
+        json.dump(veriler, dosya, indent=2, ensure_ascii=False)
 
 # Eşleşen sonuç bulma fonksiyonumuz.
 def yakin_sonuc_bul(soru, sorular):
